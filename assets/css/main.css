@@ -1194,6 +1194,13 @@ table {
   .row div {
     margin: 0 5%; }
 
+.gallery article {
+  height: 282px; }
+  .gallery article a {
+    height: 100%; }
+    .gallery article a img {
+      height: 100%; }
+
 /* Header */
 #header {
   position: fixed;
