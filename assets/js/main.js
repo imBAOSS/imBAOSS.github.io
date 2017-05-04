@@ -234,8 +234,10 @@
 
 	});
 
-	$("[data-media]").ready(function() {
-    var $this = $(this);
+	// Load pop-up video
+
+	$(window).load(function() {
+    var $this = $("[data-media]");
     var videoUrl = $this.attr("data-media");
     var popup = $this.attr("href");
     var $popupIframe = $(popup).find("iframe");
