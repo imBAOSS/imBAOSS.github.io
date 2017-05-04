@@ -25,6 +25,11 @@ p {
     opacity:0;
     visibility:hidden;
     transition:.3s ease;
+
+    // center video
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .show-popup .popup {
@@ -34,7 +39,7 @@ p {
 
 .popup > iframe {
     position:absolute;
-    top:50px;
-    left:50%;
-    margin-left:-280px;
+    // top:50px;
+    // left:50%;
+    // margin-left:-280px;
 }
