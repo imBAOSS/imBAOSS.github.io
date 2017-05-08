@@ -1514,6 +1514,19 @@ body {
       #footer ul.menu li a {
         line-height: 1.5em; } }
 
+/* Profile Photo */
+.profile-photo {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  display: inline-flex; }
+  .profile-photo div {
+    height: 100%;
+    width: 100%;
+    background-position: -4px -14px;
+    background-image: url("../../images/Bao_Le.jpg"); }
+
 /* Intro */
 #intro {
   background: url("images/overlay.png"), url("../../images/intro.jpg");

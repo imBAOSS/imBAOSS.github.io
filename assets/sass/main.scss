@@ -54,6 +54,23 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 
+/* Profile Photo */
+
+	.profile-photo {
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
+		overflow: hidden;
+		display: inline-flex;
+
+		div {
+			height: 100%;
+			width: 100%;
+			background-position: -4px -14px;
+			background-image: url('../../images/Bao_Le.jpg');
+		}
+	}
+
 /* Intro */
 
 	#intro {
