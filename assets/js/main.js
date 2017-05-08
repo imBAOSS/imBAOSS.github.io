@@ -252,6 +252,7 @@
 	    e.stopPropagation();
 
 	    $(".page").removeClass("show-popup");
+			$(".page").css('z-index', 0);
 			$("iframe").attr("src", "");
 	});
 
