@@ -2694,6 +2694,8 @@ body.is-mobile.landing #footer {
   .icon-container li i {
     font-size: 5rem; }
   .icon-container li p {
+    max-width: 81.19px;
+    text-align: center;
     color: rgba(255, 255, 255, 0);
     font-size: large;
     font-weight: 300;
